@@ -33,10 +33,24 @@ The mood tracker
 
 **Required Must-have Stories**
 
-* User can log in and log out.
-* User can update their name in their account page.
-* User can update their mood (use of emoji is mandatory but comments are optional )
-* User can see/comment/react to others' post. 
+- [x] User can see the launch screen.
+- [x] User can see the feed screen.
+- [x] User can tap into the account screen.
+- [x] User can see the search screen.
+- [ ] User can search other usernames, emojis, and captions.
+- [x] User can see the post screen.
+- [x] User can see the username change screen.
+- [ ] User can change their name in their account page.
+- [x] User can see the password change screen.
+- [ ] User can change their password in their account page.
+- [x] User can see the account deactivation screen.
+- [x] User can enter their username and password to log in.
+- [ ] User can log in.
+- [ ] User can log out.
+- [ ] User can post their moods (use of emoji is mandatory but comments are optional.)
+- [ ] User can see others' post. 
+- [ ] User can comment to others' post. 
+- [ ] User can react to others' post. 
 
 
 
