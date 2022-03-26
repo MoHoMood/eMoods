@@ -1,5 +1,3 @@
-https://parse-dashboard.back4app.com/apps/7eb09169-68d1-437c-9057-6ba654b422d6/browser/_User
-
 # eMoods
 
 https://hackmd.io/EDetK-zSSNWr8AvLt3VAcw#Product-Spec
