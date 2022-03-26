@@ -12,6 +12,8 @@
 		452DC1E427EF9079009EDD7B /* DeactivateScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452DC1E327EF9079009EDD7B /* DeactivateScreen.storyboard */; };
 		452DC1E627EF908B009EDD7B /* FollowerScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452DC1E527EF908B009EDD7B /* FollowerScreen.storyboard */; };
 		452DC1E827EF909E009EDD7B /* FollowingScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452DC1E727EF909E009EDD7B /* FollowingScreen.storyboard */; };
+		452DC1EA27EFA1AC009EDD7B /* SearchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452DC1E927EFA1AC009EDD7B /* SearchScreen.storyboard */; };
+		452DC1EF27EFA2DB009EDD7B /* NewPostScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452DC1EE27EFA2DB009EDD7B /* NewPostScreen.storyboard */; };
 		456D227B27EF8976001B94A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456D227A27EF8976001B94A2 /* AppDelegate.swift */; };
 		456D227D27EF8976001B94A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456D227C27EF8976001B94A2 /* SceneDelegate.swift */; };
 		456D227F27EF8976001B94A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456D227E27EF8976001B94A2 /* ViewController.swift */; };
@@ -53,6 +55,8 @@
 		452DC1E327EF9079009EDD7B /* DeactivateScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DeactivateScreen.storyboard; sourceTree = "<group>"; };
 		452DC1E527EF908B009EDD7B /* FollowerScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FollowerScreen.storyboard; sourceTree = "<group>"; };
 		452DC1E727EF909E009EDD7B /* FollowingScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FollowingScreen.storyboard; sourceTree = "<group>"; };
+		452DC1E927EFA1AC009EDD7B /* SearchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchScreen.storyboard; sourceTree = "<group>"; };
+		452DC1EE27EFA2DB009EDD7B /* NewPostScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewPostScreen.storyboard; sourceTree = "<group>"; };
 		456D227727EF8976001B94A2 /* MoHoeMoods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoHoeMoods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		456D227A27EF8976001B94A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		456D227C27EF8976001B94A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,14 +139,16 @@
 				456D227C27EF8976001B94A2 /* SceneDelegate.swift */,
 				456D227E27EF8976001B94A2 /* ViewController.swift */,
 				456D228027EF8976001B94A2 /* Main.storyboard */,
+				456D22AE27EF8A7B001B94A2 /* SignUpScreen.storyboard */,
 				456D22AA27EF89B2001B94A2 /* FeedScreen.storyboard */,
+				452DC1E927EFA1AC009EDD7B /* SearchScreen.storyboard */,
+				452DC1EE27EFA2DB009EDD7B /* NewPostScreen.storyboard */,
 				456D22AC27EF89D3001B94A2 /* AccountScreen.storyboard */,
 				452DC1DF27EF8FC1009EDD7B /* UsernameScreen.storyboard */,
 				452DC1E127EF9064009EDD7B /* PasswordScreen.storyboard */,
 				452DC1E327EF9079009EDD7B /* DeactivateScreen.storyboard */,
 				452DC1E527EF908B009EDD7B /* FollowerScreen.storyboard */,
 				452DC1E727EF909E009EDD7B /* FollowingScreen.storyboard */,
-				456D22AE27EF8A7B001B94A2 /* SignUpScreen.storyboard */,
 				456D228527EF8977001B94A2 /* LaunchScreen.storyboard */,
 				456D229027EF8978001B94A2 /* MoHoeMoodsTests */,
 				456D228327EF8977001B94A2 /* Assets.xcassets */,
@@ -304,10 +310,12 @@
 				456D22AB27EF89B2001B94A2 /* FeedScreen.storyboard in Resources */,
 				452DC1E027EF8FC1009EDD7B /* UsernameScreen.storyboard in Resources */,
 				452DC1E227EF9064009EDD7B /* PasswordScreen.storyboard in Resources */,
+				452DC1EF27EFA2DB009EDD7B /* NewPostScreen.storyboard in Resources */,
 				456D228727EF8977001B94A2 /* LaunchScreen.storyboard in Resources */,
 				452DC1E427EF9079009EDD7B /* DeactivateScreen.storyboard in Resources */,
 				456D228427EF8977001B94A2 /* Assets.xcassets in Resources */,
 				452DC1E827EF909E009EDD7B /* FollowingScreen.storyboard in Resources */,
+				452DC1EA27EFA1AC009EDD7B /* SearchScreen.storyboard in Resources */,
 				456D228227EF8976001B94A2 /* Main.storyboard in Resources */,
 				452DC1E627EF908B009EDD7B /* FollowerScreen.storyboard in Resources */,
 				456D22AD27EF89D3001B94A2 /* AccountScreen.storyboard in Resources */,

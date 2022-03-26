@@ -29,6 +29,9 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system" title=""/>
+                                <connections>
+                                    <segue destination="qb4-4A-qGb" kind="presentation" id="SVT-pe-jgK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7LJ-eE-BBt">
                                 <rect key="frame" x="350" y="50" width="44" height="31"/>
@@ -36,6 +39,9 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system" title=""/>
+                                <connections>
+                                    <segue destination="IK2-pt-fQs" kind="presentation" id="kD4-b0-V5a"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBO-59-kcD">
                                 <rect key="frame" x="48" y="815" width="45" height="31"/>
@@ -43,6 +49,9 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="smiley" catalog="system"/>
+                                <connections>
+                                    <segue destination="g2b-lM-1QD" kind="presentation" id="oRz-8V-foa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oTc-hZ-Pg7">
                                 <rect key="frame" x="184" y="815" width="47" height="31"/>
@@ -57,6 +66,9 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="person" catalog="system"/>
+                                <connections>
+                                    <segue destination="3of-5l-xdL" kind="presentation" id="KVc-HR-ciR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
@@ -66,6 +78,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="81.696428571428569"/>
+        </scene>
+        <!--FeedScreen-->
+        <scene sceneID="iQo-xi-EaP">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FeedScreen" id="g2b-lM-1QD" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="igg-Bw-bvS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="539" y="198"/>
+        </scene>
+        <!--AccountScreen-->
+        <scene sceneID="Cy5-os-vFb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AccountScreen" id="3of-5l-xdL" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8r1-V3-Che" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="513" y="341"/>
+        </scene>
+        <!--SearchScreen-->
+        <scene sceneID="Wuv-CU-haj">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SearchScreen" id="qb4-4A-qGb" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="snF-97-gMy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="453" y="-160"/>
+        </scene>
+        <!--NewPostScreen-->
+        <scene sceneID="Ps7-Yu-iDO">
+            <objects>
+                <viewControllerPlaceholder storyboardName="NewPostScreen" id="IK2-pt-fQs" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hRA-xx-UfD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="489" y="-101"/>
         </scene>
     </scenes>
     <resources>

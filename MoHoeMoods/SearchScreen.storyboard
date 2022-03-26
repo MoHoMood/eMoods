@@ -16,23 +16,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXR-TW-2SR">
-                                <rect key="frame" x="26" y="44" width="56" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="eMoods" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dQ-fD-dQz">
+                                <rect key="frame" x="20" y="56" width="99" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="systemYellowColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Back"/>
-                                <connections>
-                                    <segue destination="cQ9-tG-MyP" kind="presentation" id="SDc-25-9al"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Followings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UzU-sT-Wxh">
-                                <rect key="frame" x="26" y="125" width="97" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="Seach emoji/ text/ username" translatesAutoresizingMaskIntoConstraints="NO" id="Uib-h3-t6W">
+                                <rect key="frame" x="35" y="117" width="343" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemYellowColor"/>
+                                <color key="barTintColor" systemColor="systemYellowColor"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -40,15 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="96" y="83"/>
-        </scene>
-        <!--AccountScreen-->
-        <scene sceneID="bmk-lR-L8k">
-            <objects>
-                <viewControllerPlaceholder storyboardName="AccountScreen" id="cQ9-tG-MyP" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="F9N-4l-GOE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="792" y="-183"/>
+            <point key="canvasLocation" x="95.652173913043484" y="82.366071428571431"/>
         </scene>
     </scenes>
     <resources>
