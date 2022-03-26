@@ -5,9 +5,10 @@ https://hackmd.io/EDetK-zSSNWr8AvLt3VAcw#Product-Spec
 
 ## Table of Contents
 1. [Overview](#Overview)
-1. [Product Spec](#Product-Spec)
-1. [Wireframes](#Wireframes)
-2. [Schema](#Schema)
+2. [Product Spec](#Product-Spec)
+3. [Wireframes](#Wireframes)
+4. [Schema](#Schema)
+5. [Progress](#Progress)
 
 ## Overview
 ### Description
@@ -226,3 +227,6 @@ Optional:
    - Follower Screen
       - (Read/GET) User's followers
    
+## Progress
+03/26![ezgif-4-6848a7fe0a](https://user-images.githubusercontent.com/86068048/160255823-eab96370-2f6e-40d5-8805-2a6e50f4802a.gif)
+
