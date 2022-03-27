@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19D8473D27F10636009E7C85 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D8473C27F10636009E7C85 /* SignUpViewController.swift */; };
 		19EEC50C27EFA61A00814990 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EEC50B27EFA61A00814990 /* LoginViewController.swift */; };
 		452DC1E027EF8FC1009EDD7B /* UsernameScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452DC1DF27EF8FC1009EDD7B /* UsernameScreen.storyboard */; };
 		452DC1E227EF9064009EDD7B /* PasswordScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452DC1E127EF9064009EDD7B /* PasswordScreen.storyboard */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		0B3259978F135084AEA56084 /* Pods-MoHoeMoods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoHoeMoods.release.xcconfig"; path = "Target Support Files/Pods-MoHoeMoods/Pods-MoHoeMoods.release.xcconfig"; sourceTree = "<group>"; };
+		19D8473C27F10636009E7C85 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		19EEC50B27EFA61A00814990 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		452DC1DF27EF8FC1009EDD7B /* UsernameScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UsernameScreen.storyboard; sourceTree = "<group>"; };
 		452DC1E127EF9064009EDD7B /* PasswordScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PasswordScreen.storyboard; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				456D227A27EF8976001B94A2 /* AppDelegate.swift */,
 				456D227C27EF8976001B94A2 /* SceneDelegate.swift */,
 				19EEC50B27EFA61A00814990 /* LoginViewController.swift */,
+				19D8473C27F10636009E7C85 /* SignUpViewController.swift */,
 				456D228027EF8976001B94A2 /* Main.storyboard */,
 				456D22AE27EF8A7B001B94A2 /* SignUpScreen.storyboard */,
 				456D22AA27EF89B2001B94A2 /* FeedScreen.storyboard */,
@@ -448,6 +451,7 @@
 			files = (
 				19EEC50C27EFA61A00814990 /* LoginViewController.swift in Sources */,
 				456D227B27EF8976001B94A2 /* AppDelegate.swift in Sources */,
+				19D8473D27F10636009E7C85 /* SignUpViewController.swift in Sources */,
 				456D227D27EF8976001B94A2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
