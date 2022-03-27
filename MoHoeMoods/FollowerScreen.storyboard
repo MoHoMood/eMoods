@@ -23,7 +23,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Back"/>
                                 <connections>
-                                    <segue destination="NtT-a0-sXr" kind="presentation" id="d5h-h9-H3J"/>
+                                    <segue destination="NaX-QV-k1b" kind="presentation" id="lUJ-dr-grh"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Followers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWo-YA-QBu">
@@ -43,12 +43,12 @@
             <point key="canvasLocation" x="96" y="83"/>
         </scene>
         <!--AccountScreen-->
-        <scene sceneID="ABn-Je-Qjy">
+        <scene sceneID="bTv-Xu-1fM">
             <objects>
-                <viewControllerPlaceholder storyboardName="AccountScreen" id="NtT-a0-sXr" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Pbj-QH-WUr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="AccountScreen" id="NaX-QV-k1b" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nBx-cN-hR1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="538" y="-190"/>
+            <point key="canvasLocation" x="557" y="-110"/>
         </scene>
     </scenes>
     <resources>

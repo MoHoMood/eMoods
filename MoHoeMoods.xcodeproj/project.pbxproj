@@ -27,6 +27,8 @@
 		456D22AB27EF89B2001B94A2 /* FeedScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456D22AA27EF89B2001B94A2 /* FeedScreen.storyboard */; };
 		456D22AD27EF89D3001B94A2 /* AccountScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456D22AC27EF89D3001B94A2 /* AccountScreen.storyboard */; };
 		456D22AF27EF8A7B001B94A2 /* SignUpScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456D22AE27EF8A7B001B94A2 /* SignUpScreen.storyboard */; };
+		45E66B4527F10F1C00D1C42A /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E66B4427F10F1C00D1C42A /* FeedViewController.swift */; };
+		45E66B4727F10F2C00D1C42A /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E66B4627F10F2C00D1C42A /* AccountViewController.swift */; };
 		76EC1A745246B2E038D6188A /* Pods_MoHoeMoods_MoHoeMoodsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE74369FE128AE558202C9F8 /* Pods_MoHoeMoods_MoHoeMoodsUITests.framework */; };
 		78564F11CDAFAC42AC6710B4 /* Pods_MoHoeMoods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE0D5DC4CF38B21413A53F7 /* Pods_MoHoeMoods.framework */; };
 		792C70B405EBD3C6D3C2014C /* Pods_MoHoeMoodsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73015CBE9ECA712F8C82FBF7 /* Pods_MoHoeMoodsTests.framework */; };
@@ -75,6 +77,8 @@
 		456D22AA27EF89B2001B94A2 /* FeedScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeedScreen.storyboard; sourceTree = "<group>"; };
 		456D22AC27EF89D3001B94A2 /* AccountScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AccountScreen.storyboard; sourceTree = "<group>"; };
 		456D22AE27EF8A7B001B94A2 /* SignUpScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpScreen.storyboard; sourceTree = "<group>"; };
+		45E66B4427F10F1C00D1C42A /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		45E66B4627F10F2C00D1C42A /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		554F21E677242255C4ACF2AA /* Pods-MoHoeMoodsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoHoeMoodsTests.debug.xcconfig"; path = "Target Support Files/Pods-MoHoeMoodsTests/Pods-MoHoeMoodsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		55CB34FC63A2D0AB69049476 /* Pods-MoHoeMoodsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoHoeMoodsTests.release.xcconfig"; path = "Target Support Files/Pods-MoHoeMoodsTests/Pods-MoHoeMoodsTests.release.xcconfig"; sourceTree = "<group>"; };
 		6DB5FA3935ACF5AE02649534 /* Pods-MoHoeMoods-MoHoeMoodsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoHoeMoods-MoHoeMoodsUITests.release.xcconfig"; path = "Target Support Files/Pods-MoHoeMoods-MoHoeMoodsUITests/Pods-MoHoeMoods-MoHoeMoodsUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,6 +148,8 @@
 				456D228027EF8976001B94A2 /* Main.storyboard */,
 				456D22AE27EF8A7B001B94A2 /* SignUpScreen.storyboard */,
 				456D22AA27EF89B2001B94A2 /* FeedScreen.storyboard */,
+				45E66B4427F10F1C00D1C42A /* FeedViewController.swift */,
+				45E66B4627F10F2C00D1C42A /* AccountViewController.swift */,
 				452DC1E927EFA1AC009EDD7B /* SearchScreen.storyboard */,
 				452DC1EE27EFA2DB009EDD7B /* NewPostScreen.storyboard */,
 				456D22AC27EF89D3001B94A2 /* AccountScreen.storyboard */,
@@ -451,6 +457,8 @@
 			files = (
 				19EEC50C27EFA61A00814990 /* LoginViewController.swift in Sources */,
 				456D227B27EF8976001B94A2 /* AppDelegate.swift in Sources */,
+				45E66B4727F10F2C00D1C42A /* AccountViewController.swift in Sources */,
+				45E66B4527F10F1C00D1C42A /* FeedViewController.swift in Sources */,
 				19D8473D27F10636009E7C85 /* SignUpViewController.swift in Sources */,
 				456D227D27EF8976001B94A2 /* SceneDelegate.swift in Sources */,
 			);

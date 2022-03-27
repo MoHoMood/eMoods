@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Feed View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Y6W-OH-hqX" customClass="FeedViewController" customModule="MoHoeMoods" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,57 +43,46 @@
                                     <segue destination="IK2-pt-fQs" kind="presentation" id="kD4-b0-V5a"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBO-59-kcD">
-                                <rect key="frame" x="48" y="815" width="45" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ROW-P6-fBV">
+                                <rect key="frame" x="48" y="822" width="45" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="smiley" catalog="system"/>
                                 <connections>
-                                    <segue destination="g2b-lM-1QD" kind="presentation" id="oRz-8V-foa"/>
+                                    <segue destination="th6-b3-UED" kind="presentation" id="4L4-gH-dAJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oTc-hZ-Pg7">
-                                <rect key="frame" x="184" y="815" width="47" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSf-l1-jvy">
+                                <rect key="frame" x="185" y="822" width="47" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="calendar" catalog="system"/>
+                                <connections>
+                                    <segue destination="8mT-SV-r7p" kind="presentation" id="Y1h-M5-1CC"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CU8-mR-d9o">
-                                <rect key="frame" x="316" y="815" width="45" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vkl-HN-gDK">
+                                <rect key="frame" x="328" y="822" width="45" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="person" catalog="system"/>
                                 <connections>
-                                    <segue destination="3of-5l-xdL" kind="presentation" id="KVc-HR-ciR"/>
+                                    <segue destination="Mca-os-VuP" kind="presentation" id="p39-mY-WjB"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="81.696428571428569"/>
-        </scene>
-        <!--FeedScreen-->
-        <scene sceneID="iQo-xi-EaP">
-            <objects>
-                <viewControllerPlaceholder storyboardName="FeedScreen" id="g2b-lM-1QD" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="igg-Bw-bvS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="539" y="198"/>
-        </scene>
-        <!--AccountScreen-->
-        <scene sceneID="Cy5-os-vFb">
-            <objects>
-                <viewControllerPlaceholder storyboardName="AccountScreen" id="3of-5l-xdL" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8r1-V3-Che" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="513" y="341"/>
+            <point key="canvasLocation" x="-126.08695652173914" y="227.67857142857142"/>
         </scene>
         <!--SearchScreen-->
         <scene sceneID="Wuv-CU-haj">
@@ -110,6 +99,30 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hRA-xx-UfD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="489" y="-101"/>
+        </scene>
+        <!--FeedScreen-->
+        <scene sceneID="G7u-3U-nrD">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FeedScreen" id="th6-b3-UED" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H9t-QM-lUy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="583" y="191"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="ywV-Rr-9ho">
+            <objects>
+                <viewControllerPlaceholder id="8mT-SV-r7p" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W1m-qQ-4Ke" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="588" y="280"/>
+        </scene>
+        <!--AccountScreen-->
+        <scene sceneID="sGp-f5-JH7">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AccountScreen" id="Mca-os-VuP" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BIn-p2-t87" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="619" y="437"/>
         </scene>
     </scenes>
     <resources>
