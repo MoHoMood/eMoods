@@ -232,5 +232,5 @@ Optional:
    
 ## Progress
 03/26
-https://submissions.us-east-1.linodeobjects.com/ios_university/o96LQk5g.gif (Also uploaded as a GIF file "03.26.Progress")
+https://submissions.us-east-1.linodeobjects.com/ios_university/o96LQk5g.gif (Also uploaded as a mov file "03.26.Progress")
 
