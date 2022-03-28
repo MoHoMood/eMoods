@@ -232,5 +232,5 @@ Optional:
    
 ## Progress
 03/26
-<img src="https://submissions.us-east-1.linodeobjects.com/ios_university/o96LQk5g.gif" width=250>
+<img src="https://submissions.us-east-1.linodeobjects.com/ios_university/o96LQk5g.gif">
 
