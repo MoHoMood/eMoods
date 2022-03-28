@@ -45,6 +45,9 @@ The mood tracker
 - [x] User can see the password change screen.
 - [ ] User can change their password in their account page.
 - [x] User can see the account deactivation screen.
+- [ ] User can deactivate their account.
+- [x] User can see the follower screen.
+- [x] User can see the following screen.
 - [x] User can enter their username and password to log in.
 - [ ] User can log in.
 - [ ] User can log out.
@@ -228,5 +231,4 @@ Optional:
       - (Read/GET) User's followers
    
 ## Progress
-03/26![ezgif-4-6848a7fe0a](https://user-images.githubusercontent.com/86068048/160255823-eab96370-2f6e-40d5-8805-2a6e50f4802a.gif)
-
+03/26!(https://submissions.us-east-1.linodeobjects.com/ios_university/o96LQk5g.gif)
