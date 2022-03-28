@@ -231,4 +231,4 @@ Optional:
       - (Read/GET) User's followers
    
 ## Progress
-03/26!(https://submissions.us-east-1.linodeobjects.com/ios_university/o96LQk5g.gif)
+03/26![ezgif-4-d44d054f2e](https://submissions.us-east-1.linodeobjects.com/ios_university/o96LQk5g.gif)
