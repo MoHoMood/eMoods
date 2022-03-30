@@ -172,10 +172,19 @@ Optional:
    | comments      | Relation | comments |
    | likesCount    | Number   | number of likes for the post |
    | createdAt     | DateTime | date when post is created (default field) |
+   
+#### Comment
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the comment (default field) |
+   | author        | Pointer to User| comment author |
+   | commentContent| String   | comment content by user |
 
 #### User Profile
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
+   | ObjectId      | String   | unique id for the user (default field)|
    | userName      | String   | unique name for the user (default field) |
    | posts         | Relation | list of former posts the user has posted |
    | follower      | Relation | List of other users that follow this user |
