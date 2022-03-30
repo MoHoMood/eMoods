@@ -10,6 +10,7 @@ import Parse
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var alertView: UILabel!
     @IBOutlet weak var passwordField: UITextField!
     @IBOutlet weak var usernameField: UITextField!
     override func viewDidLoad() {
@@ -27,7 +28,11 @@ class LoginViewController: UIViewController {
             if user != nil{
                 self.performSegue(withIdentifier: "LoginSegue", sender: nil)
             } else {
-                print("Error: \(error?.localizedDescription)")
+                if error?.localizedDescription == "Invalid username/password." {
+                    self.alertView.text = "Invalid username/password.\nPlease check your username/password or sign up for a new account."
+                } else {
+                    self.alertView.text = "Error: \(error?.localizedDescription)"
+                }
             }
         }
     }
