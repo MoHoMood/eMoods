@@ -169,7 +169,7 @@ Optional:
    | emoji         | File     | emoji that user chooses |
    | caption       | String   | caption by user |
    | commentsCount | Number   | number of comments that has been posted to an image |
-   | comments      | List     | comments |
+   | comments      | Relation | comments |
    | likesCount    | Number   | number of likes for the post |
    | createdAt     | DateTime | date when post is created (default field) |
 
@@ -177,11 +177,9 @@ Optional:
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
    | userName      | String   | unique name for the user (default field) |
-   | posts         | List     | list of former posts the user has posted |
-   | follower      | List     | List of other users that follow this user |
-   | followerCount | Number   | number of followers that this user has |
-   | following     | List     | List of other users that this user follows |
-   | followingCount| Number   | number of other users that this user follows |
+   | posts         | Relation | list of former posts the user has posted |
+   | follower      | Relation | List of other users that follow this user |
+   | following     | Relation | List of other users that this user follows |
 
 ### Networking
 #### List of network requests by screen
