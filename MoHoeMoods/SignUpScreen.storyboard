@@ -52,7 +52,6 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Sign Up"/>
                                 <connections>
                                     <action selector="onSignUp:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="TiY-aV-PH6"/>
-                                    <segue destination="sCi-an-vPa" kind="presentation" identifier="SignUpSegue" id="vMC-Tz-Z1e"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -63,6 +62,7 @@
                         <outlet property="emailField" destination="h5b-CF-R8B" id="dbw-fO-eD5"/>
                         <outlet property="passwordField" destination="srl-nZ-Z7H" id="Nrf-iX-YcX"/>
                         <outlet property="usernameField" destination="To9-GH-9BB" id="WOu-1F-OCr"/>
+                        <segue destination="sCi-an-vPa" kind="presentation" identifier="SignUpSegue" id="CBn-iV-Vbo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
