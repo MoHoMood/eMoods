@@ -57,6 +57,7 @@
 
 /* Begin PBXFileReference section */
 		0B3259978F135084AEA56084 /* Pods-MoHoeMoods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoHoeMoods.release.xcconfig"; path = "Target Support Files/Pods-MoHoeMoods/Pods-MoHoeMoods.release.xcconfig"; sourceTree = "<group>"; };
+		19009C3727F5230500AD4E3D /* FollowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerViewController.swift; sourceTree = "<group>"; };
 		19D8473C27F10636009E7C85 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		19EEC50B27EFA61A00814990 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		452DC1DF27EF8FC1009EDD7B /* UsernameScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UsernameScreen.storyboard; sourceTree = "<group>"; };
@@ -158,6 +159,7 @@
 				456D22AA27EF89B2001B94A2 /* FeedScreen.storyboard */,
 				45E66B4427F10F1C00D1C42A /* FeedViewController.swift */,
 				45E66B4627F10F2C00D1C42A /* AccountViewController.swift */,
+				19009C3727F5230500AD4E3D /* FollowerViewController.swift */,
 				452DC1E927EFA1AC009EDD7B /* SearchScreen.storyboard */,
 				452DC1EE27EFA2DB009EDD7B /* NewPostScreen.storyboard */,
 				456D22AC27EF89D3001B94A2 /* AccountScreen.storyboard */,
@@ -476,7 +478,11 @@
 				19D8473D27F10636009E7C85 /* SignUpViewController.swift in Sources */,
 				453ADD7627F52AD3003077FB /* DeactivateViewController.swift in Sources */,
 				456D227D27EF8976001B94A2 /* SceneDelegate.swift in Sources */,
+<<<<<<< HEAD
 				453ADD7827F52EAE003077FB /* NewPostViewController.swift in Sources */,
+=======
+				19009C3827F5230500AD4E3D /* FollowerViewController.swift in Sources */,
+>>>>>>> 03ce6f4e4aec7d8c353cbd04ecb38f24b0a44ed8
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

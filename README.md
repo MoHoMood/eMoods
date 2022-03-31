@@ -186,6 +186,7 @@ Optional:
    | ------------- | -------- | ------------|
    | ObjectId      | String   | unique id for the user (default field)|
    | userName      | String   | unique name for the user (default field) |
+   | profilePhoto  | File     | profile photo for the user (default field) |
    | posts         | Relation | list of former posts the user has posted |
    | follower      | Relation | List of other users that follow this user |
    | following     | Relation | List of other users that this user follows |
