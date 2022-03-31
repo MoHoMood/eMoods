@@ -49,12 +49,15 @@ The mood tracker
 - [x] User can see the follower screen.
 - [x] User can see the following screen.
 - [x] User can enter their username and password to log in.
-- [ ] User can log in.
-- [ ] User can log out.
+- [x] User can log in.
+- [x] User can log out.
 - [ ] User can post their moods (use of emoji is mandatory but comments are optional.)
 - [ ] User can see others' post. 
 - [ ] User can comment to others' post. 
 - [ ] User can react to others' post. 
+- [x] User can stay logged in even after quitting from app
+- [x] User gets an error message if username or password is wrong while logging in
+- [x] User can select emoji, write caption and store the data in back4app.
 
 
 
