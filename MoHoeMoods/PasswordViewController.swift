@@ -1,24 +1,19 @@
 //
-//  FeedViewController.swift
+//  PasswordViewController.swift
 //  MoHoeMoods
 //
-//  Created by Ruby Sapkota on 3/27/22.
+//  Created by Ruby Sapkota on 3/30/22.
 //
 
 import UIKit
 
-class FeedViewController: UIViewController {
+class PasswordViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-       }
-        
-        
-        
-        
-        
+
         // Do any additional setup after loading the view.
+    }
     
 
     /*

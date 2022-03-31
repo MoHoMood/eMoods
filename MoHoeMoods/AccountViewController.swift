@@ -32,12 +32,41 @@ class AccountViewController: UIViewController {
     }
     
     
+
+
+           
+           //You can change more fields here, this just sets the new username.
+
+         
+
+        }
+        
+        
+    
+       
+        
+        
+        
+        
+        
+    
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
     
     
     
     
     
-}
+
     
     
     

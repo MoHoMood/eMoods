@@ -1,24 +1,40 @@
 //
-//  FeedViewController.swift
+//  UsernameViewController.swift
 //  MoHoeMoods
 //
-//  Created by Ruby Sapkota on 3/27/22.
+//  Created by Ruby Sapkota on 3/30/22.
 //
 
 import UIKit
 
-class FeedViewController: UIViewController {
+class UsernameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-       }
-        
-        
-        
-        
-        
+   
         // Do any additional setup after loading the view.
+    }
+    
+    @IBOutlet weak var currentUsername: UITextField!
+    
+    @IBOutlet weak var newUsername: UITextField!
+    
+    
+    
+    @IBAction func Save(_ sender: Any) {
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
     
 
     /*

@@ -16,6 +16,10 @@
 		452DC1E827EF909E009EDD7B /* FollowingScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452DC1E727EF909E009EDD7B /* FollowingScreen.storyboard */; };
 		452DC1EA27EFA1AC009EDD7B /* SearchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452DC1E927EFA1AC009EDD7B /* SearchScreen.storyboard */; };
 		452DC1EF27EFA2DB009EDD7B /* NewPostScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452DC1EE27EFA2DB009EDD7B /* NewPostScreen.storyboard */; };
+		453ADD7227F52AB2003077FB /* UsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453ADD7127F52AB2003077FB /* UsernameViewController.swift */; };
+		453ADD7427F52AC2003077FB /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453ADD7327F52AC2003077FB /* PasswordViewController.swift */; };
+		453ADD7627F52AD3003077FB /* DeactivateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453ADD7527F52AD3003077FB /* DeactivateViewController.swift */; };
+		453ADD7827F52EAE003077FB /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453ADD7727F52EAE003077FB /* NewPostViewController.swift */; };
 		456D227B27EF8976001B94A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456D227A27EF8976001B94A2 /* AppDelegate.swift */; };
 		456D227D27EF8976001B94A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456D227C27EF8976001B94A2 /* SceneDelegate.swift */; };
 		456D228227EF8976001B94A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456D228027EF8976001B94A2 /* Main.storyboard */; };
@@ -62,6 +66,10 @@
 		452DC1E727EF909E009EDD7B /* FollowingScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FollowingScreen.storyboard; sourceTree = "<group>"; };
 		452DC1E927EFA1AC009EDD7B /* SearchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchScreen.storyboard; sourceTree = "<group>"; };
 		452DC1EE27EFA2DB009EDD7B /* NewPostScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewPostScreen.storyboard; sourceTree = "<group>"; };
+		453ADD7127F52AB2003077FB /* UsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameViewController.swift; sourceTree = "<group>"; };
+		453ADD7327F52AC2003077FB /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		453ADD7527F52AD3003077FB /* DeactivateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeactivateViewController.swift; sourceTree = "<group>"; };
+		453ADD7727F52EAE003077FB /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
 		456D227727EF8976001B94A2 /* MoHoeMoods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoHoeMoods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		456D227A27EF8976001B94A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		456D227C27EF8976001B94A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -153,7 +161,11 @@
 				452DC1E927EFA1AC009EDD7B /* SearchScreen.storyboard */,
 				452DC1EE27EFA2DB009EDD7B /* NewPostScreen.storyboard */,
 				456D22AC27EF89D3001B94A2 /* AccountScreen.storyboard */,
+				453ADD7727F52EAE003077FB /* NewPostViewController.swift */,
+				453ADD7127F52AB2003077FB /* UsernameViewController.swift */,
+				453ADD7327F52AC2003077FB /* PasswordViewController.swift */,
 				452DC1DF27EF8FC1009EDD7B /* UsernameScreen.storyboard */,
+				453ADD7527F52AD3003077FB /* DeactivateViewController.swift */,
 				452DC1E127EF9064009EDD7B /* PasswordScreen.storyboard */,
 				452DC1E327EF9079009EDD7B /* DeactivateScreen.storyboard */,
 				452DC1E527EF908B009EDD7B /* FollowerScreen.storyboard */,
@@ -455,12 +467,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				453ADD7227F52AB2003077FB /* UsernameViewController.swift in Sources */,
+				453ADD7427F52AC2003077FB /* PasswordViewController.swift in Sources */,
 				19EEC50C27EFA61A00814990 /* LoginViewController.swift in Sources */,
 				456D227B27EF8976001B94A2 /* AppDelegate.swift in Sources */,
 				45E66B4727F10F2C00D1C42A /* AccountViewController.swift in Sources */,
 				45E66B4527F10F1C00D1C42A /* FeedViewController.swift in Sources */,
 				19D8473D27F10636009E7C85 /* SignUpViewController.swift in Sources */,
+				453ADD7627F52AD3003077FB /* DeactivateViewController.swift in Sources */,
 				456D227D27EF8976001B94A2 /* SceneDelegate.swift in Sources */,
+				453ADD7827F52EAE003077FB /* NewPostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
