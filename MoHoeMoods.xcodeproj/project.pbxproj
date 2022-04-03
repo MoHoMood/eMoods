@@ -478,11 +478,11 @@
 				19D8473D27F10636009E7C85 /* SignUpViewController.swift in Sources */,
 				453ADD7627F52AD3003077FB /* DeactivateViewController.swift in Sources */,
 				456D227D27EF8976001B94A2 /* SceneDelegate.swift in Sources */,
-<<<<<<< HEAD
+
 				453ADD7827F52EAE003077FB /* NewPostViewController.swift in Sources */,
-=======
+
 				19009C3827F5230500AD4E3D /* FollowerViewController.swift in Sources */,
->>>>>>> 03ce6f4e4aec7d8c353cbd04ecb38f24b0a44ed8
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
