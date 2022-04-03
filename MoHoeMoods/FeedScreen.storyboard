@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tfk-Si-gcV">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tfk-Si-gcV">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -15,8 +15,10 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pES-kr-S1J">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" systemColor="systemYellowColor"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" systemColor="systemYellowColor"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="vKF-1U-PjH" kind="relationship" relationship="viewControllers" id="YJc-bM-twz"/>
@@ -128,7 +130,9 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="smiley" catalog="system" id="aap-hZ-vTM"/>
+                    <tabBarItem key="tabBarItem" title="" image="smiley" catalog="system" id="aap-hZ-vTM">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="hse-s8-QBr"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -173,9 +177,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otn-yC-FaU">
                                 <rect key="frame" x="181" y="561" width="53" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="systemYellowColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Post"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Post">
+                                    <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="onSubmitButton:" destination="qcF-Pm-tbY" eventType="touchUpInside" id="RoS-hg-zWz"/>
                                 </connections>
@@ -184,7 +189,12 @@
                                 <rect key="frame" x="27" y="44" width="56" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Back"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back">
+                                    <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="FYb-Hr-EP1" kind="presentation" id="cf2-sH-MOR"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Caption:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2w9-oh-cCH">
                                 <rect key="frame" x="27" y="248" width="361" height="21"/>
@@ -206,11 +216,21 @@
             </objects>
             <point key="canvasLocation" x="1030" y="161"/>
         </scene>
+        <!--FeedScreen-->
+        <scene sceneID="FIm-WY-u2n">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FeedScreen" id="FYb-Hr-EP1" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p0E-g6-70D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1976" y="56"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="uGc-7q-odz">
             <objects>
                 <navigationController id="vKF-1U-PjH" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="smiley" catalog="system" id="b94-jX-9iW"/>
+                    <tabBarItem key="tabBarItem" title="" image="smiley" catalog="system" id="b94-jX-9iW">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zJR-I6-TmG">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -226,12 +246,18 @@
         <!--Navigation Controller-->
         <scene sceneID="aax-TB-lbt">
             <objects>
-                <navigationController id="8nD-Lv-MBu" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="person" catalog="system" id="2v8-lh-WsS"/>
+                <navigationController modalPresentationStyle="fullScreen" toolbarHidden="NO" id="8nD-Lv-MBu" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="person" catalog="system" id="2v8-lh-WsS">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="LSc-sB-be6">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="S7f-uR-NLw">
+                        <rect key="frame" x="0.0" y="764" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="iV2-gC-rFz" kind="relationship" relationship="rootViewController" id="S8g-cT-a45"/>
                     </connections>
@@ -340,7 +366,9 @@
                         <viewLayoutGuide key="safeArea" id="N2i-0p-RTv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="person" catalog="system" id="Oc5-uf-26K"/>
+                    <tabBarItem key="tabBarItem" title="" image="person" catalog="system" id="Oc5-uf-26K">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="dLX-nM-jWK"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
