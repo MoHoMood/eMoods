@@ -49,12 +49,15 @@ The mood tracker
 - [x] User can see the follower screen.
 - [x] User can see the following screen.
 - [x] User can enter their username and password to log in.
-- [ ] User can log in.
-- [ ] User can log out.
+- [x] User can log in.
+- [x] User can log out.
 - [ ] User can post their moods (use of emoji is mandatory but comments are optional.)
 - [ ] User can see others' post. 
 - [ ] User can comment to others' post. 
 - [ ] User can react to others' post. 
+- [x] User can stay logged in even after quitting from app
+- [x] User gets an error message if username or password is wrong while logging in
+- [x] User can select emoji, write caption and store the data in back4app.
 
 
 
@@ -242,3 +245,5 @@ Optional:
 03/26
 https://submissions.us-east-1.linodeobjects.com/ios_university/o96LQk5g.gif (Also uploaded as a mp4 file "03.26.Progress")
 
+3/30
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/92611620/160958613-48e8c133-f8c5-4f36-8977-7ac4eca830d0.gif)
