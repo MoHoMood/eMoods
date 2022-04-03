@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -75,7 +75,7 @@
                         <outlet property="alertView" destination="5CV-SU-v0N" id="bqE-pD-Mfz"/>
                         <outlet property="passwordField" destination="evC-xL-y4R" id="Vcq-bj-usD"/>
                         <outlet property="usernameField" destination="Apf-fk-WxY" id="Opm-19-voq"/>
-                        <segue destination="EvJ-6U-Pl8" kind="presentation" identifier="LoginSegue" id="Mpz-O9-2PM"/>
+                        <segue destination="LgI-qM-QIV" kind="presentation" identifier="LoginSegue" id="WnK-Ge-f0j"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -83,14 +83,12 @@
             <point key="canvasLocation" x="-184.05797101449278" y="45.535714285714285"/>
         </scene>
         <!--FeedScreen-->
-        <scene sceneID="7Dd-e3-OTD">
+        <scene sceneID="twj-I5-pQN">
             <objects>
-                <viewControllerPlaceholder storyboardName="FeedScreen" id="EvJ-6U-Pl8" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="8uT-uA-SXs"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GFa-C5-pui" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="FeedScreen" id="LgI-qM-QIV" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OOe-bX-CQy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="508" y="52"/>
+            <point key="canvasLocation" x="439" y="37"/>
         </scene>
         <!--SignUpScreen-->
         <scene sceneID="79I-xq-rXJ">
