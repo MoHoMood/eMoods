@@ -56,7 +56,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <segue destination="sCi-an-vPa" kind="presentation" identifier="SignUpSegue" id="CBn-iV-Vbo"/>
+                        <segue destination="sCi-an-vPa" kind="presentation" identifier="SignUpSegue" modalPresentationStyle="fullScreen" id="CBn-iV-Vbo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -64,7 +64,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Sign Up"/>
                                 <connections>
-                                    <segue destination="sRx-cH-aNx" kind="presentation" identifier="goToSignUpSegue" id="dGa-wx-7G0"/>
+                                    <segue destination="sRx-cH-aNx" kind="presentation" identifier="goToSignUpSegue" modalPresentationStyle="fullScreen" id="dGa-wx-7G0"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -75,7 +75,7 @@
                         <outlet property="alertView" destination="5CV-SU-v0N" id="bqE-pD-Mfz"/>
                         <outlet property="passwordField" destination="evC-xL-y4R" id="Vcq-bj-usD"/>
                         <outlet property="usernameField" destination="Apf-fk-WxY" id="Opm-19-voq"/>
-                        <segue destination="LgI-qM-QIV" kind="presentation" identifier="LoginSegue" id="WnK-Ge-f0j"/>
+                        <segue destination="LgI-qM-QIV" kind="presentation" identifier="LoginSegue" modalPresentationStyle="fullScreen" id="WnK-Ge-f0j"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
