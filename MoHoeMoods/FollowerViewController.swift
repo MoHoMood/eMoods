@@ -19,6 +19,9 @@ class FollowerViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
+        
+    
+    
     /*
     // MARK: - Navigation
 

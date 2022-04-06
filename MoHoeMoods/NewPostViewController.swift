@@ -22,7 +22,12 @@ class NewPostViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func Back(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+        
+    }
+                
+    
     @IBAction func onSubmitButton(_ sender: Any) {
         let post = PFObject(className: "Posts")
         

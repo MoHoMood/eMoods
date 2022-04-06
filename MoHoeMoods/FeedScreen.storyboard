@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tfk-Si-gcV">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tfk-Si-gcV">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -274,9 +274,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lNQ-Sy-ez6">
-                                <rect key="frame" x="8" y="262" width="144" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lNQ-Sy-ez6">
+                                <rect key="frame" x="8" y="136" width="144" height="31"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Change Username"/>
@@ -284,9 +283,8 @@
                                     <segue destination="4mz-1T-H37" kind="presentation" modalPresentationStyle="fullScreen" id="t6i-c8-eHr"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xQC-n5-6Km">
-                                <rect key="frame" x="20" y="374" width="140" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xQC-n5-6Km">
+                                <rect key="frame" x="8" y="215" width="140" height="31"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Change Password"/>
@@ -294,22 +292,28 @@
                                     <segue destination="rtg-XQ-bIt" kind="presentation" modalPresentationStyle="fullScreen" id="dDv-oe-Flk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tci-VI-o1b">
-                                <rect key="frame" x="11" y="495" width="86" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tci-VI-o1b">
+                                <rect key="frame" x="8" y="301" width="94.5" height="32"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Followers"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Followers"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Followers">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="RGm-u1-8dc" kind="presentation" modalPresentationStyle="fullScreen" id="UgI-nX-Hxp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sK1-sR-N3P">
-                                <rect key="frame" x="7" y="534" width="93" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sK1-sR-N3P">
+                                <rect key="frame" x="8" y="341" width="102.5" height="32"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Followings"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Followings"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Followings">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="bCD-1H-J5j" kind="presentation" modalPresentationStyle="fullScreen" id="RI9-bq-KrM"/>
                                 </connections>
@@ -320,9 +324,8 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ojh-sc-EIK">
-                                <rect key="frame" x="20" y="403" width="151" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ojh-sc-EIK">
+                                <rect key="frame" x="8" y="254" width="150.5" height="31"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Deactivate Account"/>
@@ -330,28 +333,14 @@
                                     <segue destination="UAT-Oq-tSG" kind="presentation" modalPresentationStyle="fullScreen" id="qAM-Tf-PiV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3FE-jY-4xY">
-                                <rect key="frame" x="173" y="643" width="70" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Logout">
-                                    <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="onLogoutButton:" destination="iV2-gC-rFz" eventType="touchUpInside" id="3Yg-GO-wej"/>
-                                    <segue destination="l18-DA-jwA" kind="presentation" modalPresentationStyle="fullScreen" id="qFl-Ag-RVT"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User Setting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMT-Zz-bkI">
-                                <rect key="frame" x="8" y="230" width="118" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Setting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMT-Zz-bkI">
+                                <rect key="frame" x="8" y="104" width="118" height="24"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Account Setting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFm-un-NU2">
-                                <rect key="frame" x="11" y="342" width="152" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account Setting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFm-un-NU2">
+                                <rect key="frame" x="8" y="183" width="152" height="24"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -363,9 +352,47 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3FE-jY-4xY">
+                                <rect key="frame" x="151" y="497" width="114" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Logout">
+                                    <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="onLogoutButton:" destination="iV2-gC-rFz" eventType="touchUpInside" id="3Yg-GO-wej"/>
+                                    <segue destination="l18-DA-jwA" kind="presentation" modalPresentationStyle="fullScreen" id="qFl-Ag-RVT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="N2i-0p-RTv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="N2i-0p-RTv" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Ojh-sc-EIK" secondAttribute="trailing" constant="8" id="06z-mA-CE0"/>
+                            <constraint firstItem="tci-VI-o1b" firstAttribute="leading" secondItem="N2i-0p-RTv" secondAttribute="leading" constant="8" id="1aD-Ur-cdA"/>
+                            <constraint firstItem="Ojh-sc-EIK" firstAttribute="top" secondItem="xQC-n5-6Km" secondAttribute="bottom" constant="8" id="1oR-AC-ifz"/>
+                            <constraint firstItem="sK1-sR-N3P" firstAttribute="top" secondItem="tci-VI-o1b" secondAttribute="bottom" constant="8" id="3Ja-qJ-nrl"/>
+                            <constraint firstItem="fFm-un-NU2" firstAttribute="leading" secondItem="N2i-0p-RTv" secondAttribute="leading" constant="8" id="4da-cO-ScP"/>
+                            <constraint firstItem="N2i-0p-RTv" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="YMT-Zz-bkI" secondAttribute="trailing" constant="8" id="64t-Gx-xc6"/>
+                            <constraint firstItem="N2i-0p-RTv" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="tci-VI-o1b" secondAttribute="trailing" constant="8" id="6gE-GU-TXJ"/>
+                            <constraint firstItem="sK1-sR-N3P" firstAttribute="top" secondItem="tci-VI-o1b" secondAttribute="bottom" constant="8" id="7nj-MD-yNN"/>
+                            <constraint firstItem="xQC-n5-6Km" firstAttribute="leading" secondItem="N2i-0p-RTv" secondAttribute="leading" constant="8" id="B8o-Hh-bpx"/>
+                            <constraint firstItem="YMT-Zz-bkI" firstAttribute="top" secondItem="N2i-0p-RTv" secondAttribute="top" constant="16" id="FAl-dt-SfB"/>
+                            <constraint firstItem="xQC-n5-6Km" firstAttribute="top" secondItem="fFm-un-NU2" secondAttribute="bottom" constant="8" id="PbB-rt-nM6"/>
+                            <constraint firstItem="lNQ-Sy-ez6" firstAttribute="top" secondItem="YMT-Zz-bkI" secondAttribute="bottom" constant="8" id="Qma-JC-VDr"/>
+                            <constraint firstItem="YMT-Zz-bkI" firstAttribute="leading" secondItem="N2i-0p-RTv" secondAttribute="leading" constant="8" id="T84-SC-XG7"/>
+                            <constraint firstItem="Ojh-sc-EIK" firstAttribute="top" secondItem="xQC-n5-6Km" secondAttribute="bottom" constant="8" id="TEU-8Y-KOA"/>
+                            <constraint firstItem="N2i-0p-RTv" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="sK1-sR-N3P" secondAttribute="trailing" constant="8" id="UOR-C2-Io5"/>
+                            <constraint firstItem="sK1-sR-N3P" firstAttribute="leading" secondItem="N2i-0p-RTv" secondAttribute="leading" constant="8" id="Vju-lE-hsP"/>
+                            <constraint firstItem="fFm-un-NU2" firstAttribute="top" secondItem="lNQ-Sy-ez6" secondAttribute="bottom" constant="16" id="bgq-MJ-Twb"/>
+                            <constraint firstItem="fFm-un-NU2" firstAttribute="top" secondItem="lNQ-Sy-ez6" secondAttribute="bottom" constant="16" id="fgX-Uf-JhN"/>
+                            <constraint firstItem="N2i-0p-RTv" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="lNQ-Sy-ez6" secondAttribute="trailing" constant="8" id="oYz-xE-4tz"/>
+                            <constraint firstItem="N2i-0p-RTv" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xQC-n5-6Km" secondAttribute="trailing" constant="8" id="pRP-tY-yZ6"/>
+                            <constraint firstItem="N2i-0p-RTv" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fFm-un-NU2" secondAttribute="trailing" constant="8" id="sl8-Wo-ob8"/>
+                            <constraint firstItem="Ojh-sc-EIK" firstAttribute="leading" secondItem="N2i-0p-RTv" secondAttribute="leading" constant="8" id="uTQ-Ke-xwz"/>
+                            <constraint firstItem="lNQ-Sy-ez6" firstAttribute="leading" secondItem="XeX-Pw-ILk" secondAttribute="leading" constant="8" id="uzy-Da-2Ra"/>
+                            <constraint firstItem="tci-VI-o1b" firstAttribute="top" secondItem="Ojh-sc-EIK" secondAttribute="bottom" constant="16" id="zcm-yY-r5I"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="person" catalog="system" id="Oc5-uf-26K">
                         <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -375,7 +402,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EMH-xS-wK1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-280" y="1057"/>
+            <point key="canvasLocation" x="-281.15942028985512" y="1056.0267857142858"/>
         </scene>
         <!--UsernameScreen-->
         <scene sceneID="noI-9u-Jsc">
