@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		195BADF527FA449900319333 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BADF427FA449900319333 /* PostCell.swift */; };
+		19A9A16827FD0EFE00B3121D /* FollowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A9A16727FD0EFE00B3121D /* FollowerViewController.swift */; };
+		19A9A16A27FD0F3900B3121D /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A9A16927FD0F3900B3121D /* FollowingViewController.swift */; };
+		19A9A16C27FD0FA300B3121D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A9A16B27FD0FA300B3121D /* SearchViewController.swift */; };
 		19D8473D27F10636009E7C85 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D8473C27F10636009E7C85 /* SignUpViewController.swift */; };
 		19EEC50C27EFA61A00814990 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EEC50B27EFA61A00814990 /* LoginViewController.swift */; };
 		452DC1E027EF8FC1009EDD7B /* UsernameScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452DC1DF27EF8FC1009EDD7B /* UsernameScreen.storyboard */; };
@@ -58,8 +61,10 @@
 
 /* Begin PBXFileReference section */
 		0B3259978F135084AEA56084 /* Pods-MoHoeMoods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoHoeMoods.release.xcconfig"; path = "Target Support Files/Pods-MoHoeMoods/Pods-MoHoeMoods.release.xcconfig"; sourceTree = "<group>"; };
-		19009C3727F5230500AD4E3D /* FollowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerViewController.swift; sourceTree = "<group>"; };
 		195BADF427FA449900319333 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		19A9A16727FD0EFE00B3121D /* FollowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerViewController.swift; sourceTree = "<group>"; };
+		19A9A16927FD0F3900B3121D /* FollowingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
+		19A9A16B27FD0FA300B3121D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		19D8473C27F10636009E7C85 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		19EEC50B27EFA61A00814990 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		452DC1DF27EF8FC1009EDD7B /* UsernameScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UsernameScreen.storyboard; sourceTree = "<group>"; };
@@ -162,7 +167,7 @@
 				45E66B4427F10F1C00D1C42A /* FeedViewController.swift */,
 				195BADF427FA449900319333 /* PostCell.swift */,
 				45E66B4627F10F2C00D1C42A /* AccountViewController.swift */,
-				19009C3727F5230500AD4E3D /* FollowerViewController.swift */,
+				19A9A16B27FD0FA300B3121D /* SearchViewController.swift */,
 				452DC1E927EFA1AC009EDD7B /* SearchScreen.storyboard */,
 				452DC1EE27EFA2DB009EDD7B /* NewPostScreen.storyboard */,
 				456D22AC27EF89D3001B94A2 /* AccountScreen.storyboard */,
@@ -170,7 +175,9 @@
 				453ADD7127F52AB2003077FB /* UsernameViewController.swift */,
 				453ADD7327F52AC2003077FB /* PasswordViewController.swift */,
 				452DC1DF27EF8FC1009EDD7B /* UsernameScreen.storyboard */,
+				19A9A16727FD0EFE00B3121D /* FollowerViewController.swift */,
 				453ADD7527F52AD3003077FB /* DeactivateViewController.swift */,
+				19A9A16927FD0F3900B3121D /* FollowingViewController.swift */,
 				452DC1E127EF9064009EDD7B /* PasswordScreen.storyboard */,
 				452DC1E327EF9079009EDD7B /* DeactivateScreen.storyboard */,
 				452DC1E527EF908B009EDD7B /* FollowerScreen.storyboard */,
@@ -476,8 +483,11 @@
 				453ADD7427F52AC2003077FB /* PasswordViewController.swift in Sources */,
 				19EEC50C27EFA61A00814990 /* LoginViewController.swift in Sources */,
 				456D227B27EF8976001B94A2 /* AppDelegate.swift in Sources */,
+				19A9A16827FD0EFE00B3121D /* FollowerViewController.swift in Sources */,
 				45E66B4727F10F2C00D1C42A /* AccountViewController.swift in Sources */,
+				19A9A16A27FD0F3900B3121D /* FollowingViewController.swift in Sources */,
 				45E66B4527F10F1C00D1C42A /* FeedViewController.swift in Sources */,
+				19A9A16C27FD0FA300B3121D /* SearchViewController.swift in Sources */,
 				19D8473D27F10636009E7C85 /* SignUpViewController.swift in Sources */,
 				453ADD7627F52AD3003077FB /* DeactivateViewController.swift in Sources */,
 				195BADF527FA449900319333 /* PostCell.swift in Sources */,

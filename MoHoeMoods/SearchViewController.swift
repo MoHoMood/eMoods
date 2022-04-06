@@ -1,13 +1,13 @@
 //
-//  DeactivateViewController.swift
+//  SearchViewController.swift
 //  MoHoeMoods
 //
-//  Created by Ruby Sapkota on 3/30/22.
+//  Created by Yixiao Xiao on 4/5/22.
 //
 
 import UIKit
 
-class DeactivateViewController: UIViewController {
+class SearchViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,10 +19,6 @@ class DeactivateViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-    
-    @IBAction func No(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
-    }
     /*
     // MARK: - Navigation
 

@@ -40,4 +40,7 @@ class NewPostViewController: UIViewController {
             }
         }
     }
+    
+    
+
 }

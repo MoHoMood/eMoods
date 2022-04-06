@@ -33,22 +33,25 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XBo-mB-Y2D">
                                 <rect key="frame" x="181" y="561" width="53" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="systemYellowColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Post"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Post">
+                                    <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="onSubmitButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="5sc-Pb-0i1"/>
-                                    <segue destination="C11-QF-CuS" kind="presentation" id="eYZ-d7-ob8"/>
+                                    <segue destination="C11-QF-CuS" kind="presentation" modalPresentationStyle="fullScreen" id="eYZ-d7-ob8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pRT-Xs-RNs">
                                 <rect key="frame" x="27" y="44" width="56" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="systemYellowColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Back"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back">
+                                    <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
+                                </buttonConfiguration>
                                 <connections>
-                                    <segue destination="vVL-cT-Tu5" kind="presentation" id="mJG-RB-Zdd"/>
+                                    <action selector="Back:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="VGY-ib-dwd"/>
+                                    <segue destination="vVL-cT-Tu5" kind="presentation" modalPresentationStyle="fullScreen" id="f2a-Of-DU3"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Caption:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wzK-I6-QmT">

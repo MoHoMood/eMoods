@@ -22,15 +22,16 @@ class UsernameViewController: UIViewController {
     
     
     @IBAction func Save(_ sender: Any) {
-        
-        
-        
+        dismiss(animated: true, completion: nil)
         
         
     }
     
     
     
+    @IBAction func Back(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
     
     
     

@@ -2,21 +2,23 @@
 //  FollowerViewController.swift
 //  MoHoeMoods
 //
-//  Created by Yixiao Xiao on 3/30/22.
+//  Created by Yixiao Xiao on 4/5/22.
 //
 
 import UIKit
-import Parse
 
 class FollowerViewController: UIViewController {
-    
-    var followers = [PFObject]()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
     }
-
-
+    
+    @IBAction func Back(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
