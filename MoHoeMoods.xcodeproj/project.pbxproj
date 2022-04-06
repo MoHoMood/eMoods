@@ -11,6 +11,7 @@
 		19A9A16827FD0EFE00B3121D /* FollowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A9A16727FD0EFE00B3121D /* FollowerViewController.swift */; };
 		19A9A16A27FD0F3900B3121D /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A9A16927FD0F3900B3121D /* FollowingViewController.swift */; };
 		19A9A16C27FD0FA300B3121D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A9A16B27FD0FA300B3121D /* SearchViewController.swift */; };
+		19A9A16E27FD1CDF00B3121D /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A9A16D27FD1CDF00B3121D /* FollowerCell.swift */; };
 		19D8473D27F10636009E7C85 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D8473C27F10636009E7C85 /* SignUpViewController.swift */; };
 		19EEC50C27EFA61A00814990 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EEC50B27EFA61A00814990 /* LoginViewController.swift */; };
 		452DC1E027EF8FC1009EDD7B /* UsernameScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452DC1DF27EF8FC1009EDD7B /* UsernameScreen.storyboard */; };
@@ -65,6 +66,7 @@
 		19A9A16727FD0EFE00B3121D /* FollowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerViewController.swift; sourceTree = "<group>"; };
 		19A9A16927FD0F3900B3121D /* FollowingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
 		19A9A16B27FD0FA300B3121D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		19A9A16D27FD1CDF00B3121D /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		19D8473C27F10636009E7C85 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		19EEC50B27EFA61A00814990 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		452DC1DF27EF8FC1009EDD7B /* UsernameScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UsernameScreen.storyboard; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				453ADD7327F52AC2003077FB /* PasswordViewController.swift */,
 				452DC1DF27EF8FC1009EDD7B /* UsernameScreen.storyboard */,
 				19A9A16727FD0EFE00B3121D /* FollowerViewController.swift */,
+				19A9A16D27FD1CDF00B3121D /* FollowerCell.swift */,
 				453ADD7527F52AD3003077FB /* DeactivateViewController.swift */,
 				19A9A16927FD0F3900B3121D /* FollowingViewController.swift */,
 				452DC1E127EF9064009EDD7B /* PasswordScreen.storyboard */,
@@ -481,6 +484,7 @@
 			files = (
 				453ADD7227F52AB2003077FB /* UsernameViewController.swift in Sources */,
 				453ADD7427F52AC2003077FB /* PasswordViewController.swift in Sources */,
+				19A9A16E27FD1CDF00B3121D /* FollowerCell.swift in Sources */,
 				19EEC50C27EFA61A00814990 /* LoginViewController.swift in Sources */,
 				456D227B27EF8976001B94A2 /* AppDelegate.swift in Sources */,
 				19A9A16827FD0EFE00B3121D /* FollowerViewController.swift in Sources */,
