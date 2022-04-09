@@ -36,15 +36,27 @@ class PostCell: UITableViewCell {
     
 
     
-    @IBOutlet weak var commentButton: UIButton!
-    
-    @IBAction func commentPost(_ sender: Any) {
-    }
+
+
     
     @IBOutlet weak var shareButton: UIButton!
     
+    var shared:Bool = false
     
     @IBAction func sharePost(_ sender: Any) {
+
+        
+        let tobeShared = !shared
+        if (tobeShared){
+            
+                self.setShared(true)
+           
+            } else {
+            self.setShared(false)
+            }
+        
+        
+        
     }
     
     
@@ -57,10 +69,24 @@ class PostCell: UITableViewCell {
                                 UIControl.State.normal)
                                }
         else{
-            favButton.setImage(UIImage(systemName: "heart.fill"), for:
+            favButton.setImage(UIImage(systemName: "heart"), for:
                                 UIControl.State.normal)
     
         }
+    }
+    
+    func setShared(_ isShared:Bool) {
+        shared = isShared
+        if (shared){
+            shareButton.setImage(UIImage(systemName:"arrowshape.turn.up.right.fill"), for:
+                                UIControl.State.normal)
+                               }
+        else{
+            shareButton.setImage(UIImage(systemName: "arrowshape.turn.up.right"), for:
+                                UIControl.State.normal)
+    
+        }
+    
     }
     
     
