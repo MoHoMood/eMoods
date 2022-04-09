@@ -503,11 +503,11 @@
 				195BADF527FA449900319333 /* PostCell.swift in Sources */,
 				456D227D27EF8976001B94A2 /* SceneDelegate.swift in Sources */,
 				453ADD7827F52EAE003077FB /* NewPostViewController.swift in Sources */,
-<<<<<<< Updated upstream
+
 				193891DF2801F9B0003268D5 /* FollowingCell.swift in Sources */,
-=======
+
 				45DD35322801F93C00903D2E /* CommentCellTableViewCell.swift in Sources */,
->>>>>>> Stashed changes
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
