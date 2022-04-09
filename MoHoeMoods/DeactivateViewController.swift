@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 
 class DeactivateViewController: UIViewController {
 
@@ -13,6 +14,11 @@ class DeactivateViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    @IBAction func Yes(_ sender: Any) {
+        var user = PFUser.current()
+        user?.deleteInBackground()
+        self.performSegue(withIdentifier: "mainSegue", sender: nil)
     }
     
     @IBAction func Back(_ sender: Any) {
