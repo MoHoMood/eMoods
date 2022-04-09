@@ -37,6 +37,7 @@
 		456D22AB27EF89B2001B94A2 /* FeedScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456D22AA27EF89B2001B94A2 /* FeedScreen.storyboard */; };
 		456D22AD27EF89D3001B94A2 /* AccountScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456D22AC27EF89D3001B94A2 /* AccountScreen.storyboard */; };
 		456D22AF27EF8A7B001B94A2 /* SignUpScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456D22AE27EF8A7B001B94A2 /* SignUpScreen.storyboard */; };
+		45DD35322801F93C00903D2E /* CommentCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DD35312801F93C00903D2E /* CommentCellTableViewCell.swift */; };
 		45E66B4527F10F1C00D1C42A /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E66B4427F10F1C00D1C42A /* FeedViewController.swift */; };
 		45E66B4727F10F2C00D1C42A /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E66B4627F10F2C00D1C42A /* AccountViewController.swift */; };
 		76EC1A745246B2E038D6188A /* Pods_MoHoeMoods_MoHoeMoodsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE74369FE128AE558202C9F8 /* Pods_MoHoeMoods_MoHoeMoodsUITests.framework */; };
@@ -97,6 +98,7 @@
 		456D22AA27EF89B2001B94A2 /* FeedScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeedScreen.storyboard; sourceTree = "<group>"; };
 		456D22AC27EF89D3001B94A2 /* AccountScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AccountScreen.storyboard; sourceTree = "<group>"; };
 		456D22AE27EF8A7B001B94A2 /* SignUpScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpScreen.storyboard; sourceTree = "<group>"; };
+		45DD35312801F93C00903D2E /* CommentCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCellTableViewCell.swift; sourceTree = "<group>"; };
 		45E66B4427F10F1C00D1C42A /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		45E66B4627F10F2C00D1C42A /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		554F21E677242255C4ACF2AA /* Pods-MoHoeMoodsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoHoeMoodsTests.debug.xcconfig"; path = "Target Support Files/Pods-MoHoeMoodsTests/Pods-MoHoeMoodsTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				456D228027EF8976001B94A2 /* Main.storyboard */,
 				456D22AE27EF8A7B001B94A2 /* SignUpScreen.storyboard */,
 				456D22AA27EF89B2001B94A2 /* FeedScreen.storyboard */,
+				45DD35312801F93C00903D2E /* CommentCellTableViewCell.swift */,
 				45E66B4427F10F1C00D1C42A /* FeedViewController.swift */,
 				195BADF427FA449900319333 /* PostCell.swift */,
 				45E66B4627F10F2C00D1C42A /* AccountViewController.swift */,
@@ -500,7 +503,11 @@
 				195BADF527FA449900319333 /* PostCell.swift in Sources */,
 				456D227D27EF8976001B94A2 /* SceneDelegate.swift in Sources */,
 				453ADD7827F52EAE003077FB /* NewPostViewController.swift in Sources */,
+<<<<<<< Updated upstream
 				193891DF2801F9B0003268D5 /* FollowingCell.swift in Sources */,
+=======
+				45DD35322801F93C00903D2E /* CommentCellTableViewCell.swift in Sources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
