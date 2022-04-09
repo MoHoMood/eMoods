@@ -10,6 +10,7 @@ import Parse
 
 class SignUpViewController: UIViewController {
 
+
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     @IBOutlet weak var emailField: UITextField!
@@ -22,8 +23,8 @@ class SignUpViewController: UIViewController {
     
     @IBAction func onSignUp(_ sender: Any) {
         let user = PFUser()
-        user.username = usernameField.text!
-        user.password = passwordField.text!
+        user.username = usernameField.text
+        user.password = passwordField.text
         user.email = emailField.text!
         user.signUpInBackground(){ (success, error) in
             if success {
