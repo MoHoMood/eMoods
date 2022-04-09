@@ -14,6 +14,10 @@ class DeactivateViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func Yes(_ sender: Any) {
+        
+        self.performSegue(withIdentifier: "mainSegue", sender: nil)
+    }
     
     @IBAction func Back(_ sender: Any) {
         dismiss(animated: true, completion: nil)
