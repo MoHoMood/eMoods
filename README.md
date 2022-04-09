@@ -41,11 +41,10 @@ The mood tracker
 - [ ] User can search other usernames, emojis, and captions.
 - [x] User can see the post screen.
 - [x] User can see the username change screen.
-- [ ] User can change their name in their account page.
+- [x] User can change their name in their account page.
 - [x] User can see the password change screen.
-- [ ] User can change their password in their account page.
 - [x] User can see the account deactivation screen.
-- [ ] User can deactivate their account.
+- [x] User can deactivate their account.
 - [x] User can see the follower screen.
 - [x] User can see the following screen.
 - [x] User can enter their username and password to log in.
