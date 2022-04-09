@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 
 class UsernameViewController: UIViewController {
 
@@ -15,16 +16,19 @@ class UsernameViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBOutlet weak var currentUsername: UITextField!
     
     @IBOutlet weak var newUsername: UITextField!
     
+    var user = PFUser.current()!
     
     
     @IBAction func Save(_ sender: Any) {
+        if (newUsername.text != nil) {
+            var user = PFUser.current()!
+            user.username = newUsername.text!
+            user.saveInBackground()
+        }
         dismiss(animated: true, completion: nil)
-        
-        
     }
     
     
