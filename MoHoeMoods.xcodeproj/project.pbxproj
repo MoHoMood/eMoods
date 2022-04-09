@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		193891DF2801F9B0003268D5 /* FollowingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193891DE2801F9B0003268D5 /* FollowingCell.swift */; };
 		195BADF527FA449900319333 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BADF427FA449900319333 /* PostCell.swift */; };
 		19A9A16827FD0EFE00B3121D /* FollowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A9A16727FD0EFE00B3121D /* FollowerViewController.swift */; };
 		19A9A16A27FD0F3900B3121D /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A9A16927FD0F3900B3121D /* FollowingViewController.swift */; };
@@ -62,6 +63,7 @@
 
 /* Begin PBXFileReference section */
 		0B3259978F135084AEA56084 /* Pods-MoHoeMoods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoHoeMoods.release.xcconfig"; path = "Target Support Files/Pods-MoHoeMoods/Pods-MoHoeMoods.release.xcconfig"; sourceTree = "<group>"; };
+		193891DE2801F9B0003268D5 /* FollowingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingCell.swift; sourceTree = "<group>"; };
 		195BADF427FA449900319333 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		19A9A16727FD0EFE00B3121D /* FollowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerViewController.swift; sourceTree = "<group>"; };
 		19A9A16927FD0F3900B3121D /* FollowingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				19A9A16D27FD1CDF00B3121D /* FollowerCell.swift */,
 				453ADD7527F52AD3003077FB /* DeactivateViewController.swift */,
 				19A9A16927FD0F3900B3121D /* FollowingViewController.swift */,
+				193891DE2801F9B0003268D5 /* FollowingCell.swift */,
 				452DC1E127EF9064009EDD7B /* PasswordScreen.storyboard */,
 				452DC1E327EF9079009EDD7B /* DeactivateScreen.storyboard */,
 				452DC1E527EF908B009EDD7B /* FollowerScreen.storyboard */,
@@ -497,6 +500,7 @@
 				195BADF527FA449900319333 /* PostCell.swift in Sources */,
 				456D227D27EF8976001B94A2 /* SceneDelegate.swift in Sources */,
 				453ADD7827F52EAE003077FB /* NewPostViewController.swift in Sources */,
+				193891DF2801F9B0003268D5 /* FollowingCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
