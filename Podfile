@@ -10,6 +10,8 @@ target 'MoHoeMoods' do
   pod 'Parse'
   pod 'AlamofireImage'
   pod 'MessageInputBar'
+  pod 'lottie-ios'
+
 
   target 'MoHoeMoodsTests' do
     inherit! :search_paths

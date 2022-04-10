@@ -7,14 +7,28 @@
 
 import UIKit
 import Parse
+import Lottie
 
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var alertView: UILabel!
     @IBOutlet weak var passwordField: UITextField!
     @IBOutlet weak var usernameField: UITextField!
+    
+    
+    
+    
+    var animationView: AnimationView?
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        startAnimation()
+        
+        animationView = .init(name: "13331-emotions")
+           animationView?.frame = view.bounds
+           animationView?.play()
+        //view.addSubview(animationView!)
+        
 
         // Do any additional setup after loading the view.
     }
@@ -37,6 +51,25 @@ class LoginViewController: UIViewController {
         }
     }
     
+    func startAnimation(){
+        animationView = .init(name: "13331-emotions")
+        animationView!.frame = CGRect (x: view.frame.width / 5 , y: view.frame.height / 6.6 , width:250, height:250)
+        
+        animationView!.contentMode = .scaleAspectFit
+        view.addSubview(animationView!)
+        
+        animationView!.loopMode = .loop
+        
+        animationView!.animationSpeed = 1.5
+        
+        animationView!.play()
+        
+        
+    
+        
+        
+        
+    }
     /*
     // MARK: - Navigation
 

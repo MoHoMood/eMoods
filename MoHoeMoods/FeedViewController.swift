@@ -10,6 +10,7 @@ import Parse
 import AlamofireImage
 import MessageInputBar
 
+
 class FeedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, MessageInputBarDelegate {
     
     @IBOutlet weak var tableView: UITableView!
@@ -22,9 +23,11 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     
     
+     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+       
         
         commentBar.inputTextView.placeholder = "Add a comment..."
         commentBar.sendButton.title = "Post"
@@ -197,7 +200,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         
     }
-        
+   
         
         
 

@@ -21,7 +21,6 @@
 		452DC1E627EF908B009EDD7B /* FollowerScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452DC1E527EF908B009EDD7B /* FollowerScreen.storyboard */; };
 		452DC1E827EF909E009EDD7B /* FollowingScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452DC1E727EF909E009EDD7B /* FollowingScreen.storyboard */; };
 		452DC1EA27EFA1AC009EDD7B /* SearchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452DC1E927EFA1AC009EDD7B /* SearchScreen.storyboard */; };
-		452DC1EF27EFA2DB009EDD7B /* NewPostScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452DC1EE27EFA2DB009EDD7B /* NewPostScreen.storyboard */; };
 		453ADD7227F52AB2003077FB /* UsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453ADD7127F52AB2003077FB /* UsernameViewController.swift */; };
 		453ADD7427F52AC2003077FB /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453ADD7327F52AC2003077FB /* PasswordViewController.swift */; };
 		453ADD7627F52AD3003077FB /* DeactivateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453ADD7527F52AD3003077FB /* DeactivateViewController.swift */; };
@@ -38,6 +37,7 @@
 		456D22AD27EF89D3001B94A2 /* AccountScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456D22AC27EF89D3001B94A2 /* AccountScreen.storyboard */; };
 		456D22AF27EF8A7B001B94A2 /* SignUpScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456D22AE27EF8A7B001B94A2 /* SignUpScreen.storyboard */; };
 		45DD35322801F93C00903D2E /* CommentCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DD35312801F93C00903D2E /* CommentCellTableViewCell.swift */; };
+		45E070D528038932005E1219 /* 13331-emotions.json in Resources */ = {isa = PBXBuildFile; fileRef = 45E070D428038932005E1219 /* 13331-emotions.json */; };
 		45E66B4527F10F1C00D1C42A /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E66B4427F10F1C00D1C42A /* FeedViewController.swift */; };
 		45E66B4727F10F2C00D1C42A /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E66B4627F10F2C00D1C42A /* AccountViewController.swift */; };
 		76EC1A745246B2E038D6188A /* Pods_MoHoeMoods_MoHoeMoodsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE74369FE128AE558202C9F8 /* Pods_MoHoeMoods_MoHoeMoodsUITests.framework */; };
@@ -78,7 +78,6 @@
 		452DC1E527EF908B009EDD7B /* FollowerScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FollowerScreen.storyboard; sourceTree = "<group>"; };
 		452DC1E727EF909E009EDD7B /* FollowingScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FollowingScreen.storyboard; sourceTree = "<group>"; };
 		452DC1E927EFA1AC009EDD7B /* SearchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchScreen.storyboard; sourceTree = "<group>"; };
-		452DC1EE27EFA2DB009EDD7B /* NewPostScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewPostScreen.storyboard; sourceTree = "<group>"; };
 		453ADD7127F52AB2003077FB /* UsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameViewController.swift; sourceTree = "<group>"; };
 		453ADD7327F52AC2003077FB /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 		453ADD7527F52AD3003077FB /* DeactivateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeactivateViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +98,7 @@
 		456D22AC27EF89D3001B94A2 /* AccountScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AccountScreen.storyboard; sourceTree = "<group>"; };
 		456D22AE27EF8A7B001B94A2 /* SignUpScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpScreen.storyboard; sourceTree = "<group>"; };
 		45DD35312801F93C00903D2E /* CommentCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCellTableViewCell.swift; sourceTree = "<group>"; };
+		45E070D428038932005E1219 /* 13331-emotions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "13331-emotions.json"; path = "../../13331-emotions.json"; sourceTree = "<group>"; };
 		45E66B4427F10F1C00D1C42A /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		45E66B4627F10F2C00D1C42A /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		554F21E677242255C4ACF2AA /* Pods-MoHoeMoodsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoHoeMoodsTests.debug.xcconfig"; path = "Target Support Files/Pods-MoHoeMoodsTests/Pods-MoHoeMoodsTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +142,7 @@
 		456D226E27EF8976001B94A2 = {
 			isa = PBXGroup;
 			children = (
+				45E070D328038913005E1219 /* Extra */,
 				456D227927EF8976001B94A2 /* MoHoeMoods */,
 				456D229A27EF8978001B94A2 /* MoHoeMoodsUITests */,
 				456D227827EF8976001B94A2 /* Products */,
@@ -176,7 +177,6 @@
 				45E66B4627F10F2C00D1C42A /* AccountViewController.swift */,
 				19A9A16B27FD0FA300B3121D /* SearchViewController.swift */,
 				452DC1E927EFA1AC009EDD7B /* SearchScreen.storyboard */,
-				452DC1EE27EFA2DB009EDD7B /* NewPostScreen.storyboard */,
 				456D22AC27EF89D3001B94A2 /* AccountScreen.storyboard */,
 				453ADD7727F52EAE003077FB /* NewPostViewController.swift */,
 				453ADD7127F52AB2003077FB /* UsernameViewController.swift */,
@@ -214,6 +214,14 @@
 				456D229D27EF8978001B94A2 /* MoHoeMoodsUITestsLaunchTests.swift */,
 			);
 			path = MoHoeMoodsUITests;
+			sourceTree = "<group>";
+		};
+		45E070D328038913005E1219 /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				45E070D428038932005E1219 /* 13331-emotions.json */,
+			);
+			path = Extra;
 			sourceTree = "<group>";
 		};
 		786015D0CB5E3F65D8EA4D09 /* Pods */ = {
@@ -352,7 +360,6 @@
 				456D22AB27EF89B2001B94A2 /* FeedScreen.storyboard in Resources */,
 				452DC1E027EF8FC1009EDD7B /* UsernameScreen.storyboard in Resources */,
 				452DC1E227EF9064009EDD7B /* PasswordScreen.storyboard in Resources */,
-				452DC1EF27EFA2DB009EDD7B /* NewPostScreen.storyboard in Resources */,
 				456D228727EF8977001B94A2 /* LaunchScreen.storyboard in Resources */,
 				452DC1E427EF9079009EDD7B /* DeactivateScreen.storyboard in Resources */,
 				456D228427EF8977001B94A2 /* Assets.xcassets in Resources */,
@@ -360,6 +367,7 @@
 				452DC1EA27EFA1AC009EDD7B /* SearchScreen.storyboard in Resources */,
 				456D228227EF8976001B94A2 /* Main.storyboard in Resources */,
 				452DC1E627EF908B009EDD7B /* FollowerScreen.storyboard in Resources */,
+				45E070D528038932005E1219 /* 13331-emotions.json in Resources */,
 				456D22AD27EF89D3001B94A2 /* AccountScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,11 +511,8 @@
 				195BADF527FA449900319333 /* PostCell.swift in Sources */,
 				456D227D27EF8976001B94A2 /* SceneDelegate.swift in Sources */,
 				453ADD7827F52EAE003077FB /* NewPostViewController.swift in Sources */,
-
 				193891DF2801F9B0003268D5 /* FollowingCell.swift in Sources */,
-
 				45DD35322801F93C00903D2E /* CommentCellTableViewCell.swift in Sources */,
-
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

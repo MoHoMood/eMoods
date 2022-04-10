@@ -23,9 +23,11 @@ class NewPostViewController: UIViewController {
     }
     
     @IBAction func Back(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+            dismiss(animated: true, completion: nil)
+            
         
     }
+    
                 
     
     @IBAction func onSubmitButton(_ sender: Any) {
