@@ -16,9 +16,10 @@ class DeactivateViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func Yes(_ sender: Any) {
-        var user = PFUser.current()
-        user?.deleteInBackground()
+        deleteUser()
         self.performSegue(withIdentifier: "mainSegue", sender: nil)
+        var user = PFUser.current()
+        user?.deleteEventually()
     }
     
     @IBAction func Back(_ sender: Any) {
@@ -38,5 +39,45 @@ class DeactivateViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    func deletePosts(){
+        var user = PFUser.current()
+        let query = PFQuery(className: "Posts")
+        query.whereKey("author", equalTo: user)
+        query.findObjectsInBackground { (objects, error) in
+            if let error = error {
+                // Log details of the failure
+                print(error.localizedDescription)
+            } else if let objects = objects {
+                // The find succeeded.
+                // Do something with the found objects
+                for object in objects {
+                        object.deleteInBackground()
+                }
+            }
+        }
+    }
+    
+    func deleteComments(){
+        var user = PFUser.current()
+        let query = PFQuery(className: "Comments")
+        query.whereKey("author", equalTo: user)
+        query.findObjectsInBackground { (objects, error) in
+            if let error = error {
+                // Log details of the failure
+                print(error.localizedDescription)
+            } else if let objects = objects {
+                // The find succeeded.
+                // Do something with the found objects
+                for object in objects {
+                        object.deleteInBackground()
+                }
+            }
+        }
+    }
+    
+    func deleteUser(){
+        deleteComments()
+        deletePosts()
+    }
 
 }
