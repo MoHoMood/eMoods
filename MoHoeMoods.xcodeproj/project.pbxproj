@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		193891DF2801F9B0003268D5 /* FollowingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193891DE2801F9B0003268D5 /* FollowingCell.swift */; };
 		195BADF527FA449900319333 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BADF427FA449900319333 /* PostCell.swift */; };
+		197EC283280A0B3B00849789 /* UserPostScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197EC282280A0B3B00849789 /* UserPostScreen.storyboard */; };
+		197EC287280A0DB500849789 /* UserPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197EC286280A0DB500849789 /* UserPostViewController.swift */; };
+		197EC289280A15AA00849789 /* PastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197EC288280A15AA00849789 /* PastCell.swift */; };
 		19A9A16827FD0EFE00B3121D /* FollowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A9A16727FD0EFE00B3121D /* FollowerViewController.swift */; };
 		19A9A16A27FD0F3900B3121D /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A9A16927FD0F3900B3121D /* FollowingViewController.swift */; };
 		19A9A16C27FD0FA300B3121D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A9A16B27FD0FA300B3121D /* SearchViewController.swift */; };
@@ -66,6 +69,9 @@
 		0B3259978F135084AEA56084 /* Pods-MoHoeMoods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoHoeMoods.release.xcconfig"; path = "Target Support Files/Pods-MoHoeMoods/Pods-MoHoeMoods.release.xcconfig"; sourceTree = "<group>"; };
 		193891DE2801F9B0003268D5 /* FollowingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingCell.swift; sourceTree = "<group>"; };
 		195BADF427FA449900319333 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		197EC282280A0B3B00849789 /* UserPostScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserPostScreen.storyboard; sourceTree = "<group>"; };
+		197EC286280A0DB500849789 /* UserPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostViewController.swift; sourceTree = "<group>"; };
+		197EC288280A15AA00849789 /* PastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastCell.swift; sourceTree = "<group>"; };
 		19A9A16727FD0EFE00B3121D /* FollowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerViewController.swift; sourceTree = "<group>"; };
 		19A9A16927FD0F3900B3121D /* FollowingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
 		19A9A16B27FD0FA300B3121D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -191,6 +197,9 @@
 				452DC1E327EF9079009EDD7B /* DeactivateScreen.storyboard */,
 				452DC1E527EF908B009EDD7B /* FollowerScreen.storyboard */,
 				452DC1E727EF909E009EDD7B /* FollowingScreen.storyboard */,
+				197EC282280A0B3B00849789 /* UserPostScreen.storyboard */,
+				197EC286280A0DB500849789 /* UserPostViewController.swift */,
+				197EC288280A15AA00849789 /* PastCell.swift */,
 				456D228527EF8977001B94A2 /* LaunchScreen.storyboard */,
 				456D229027EF8978001B94A2 /* MoHoeMoodsTests */,
 				456D228327EF8977001B94A2 /* Assets.xcassets */,
@@ -357,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				456D22AF27EF8A7B001B94A2 /* SignUpScreen.storyboard in Resources */,
+				197EC283280A0B3B00849789 /* UserPostScreen.storyboard in Resources */,
 				456D22AB27EF89B2001B94A2 /* FeedScreen.storyboard in Resources */,
 				452DC1E027EF8FC1009EDD7B /* UsernameScreen.storyboard in Resources */,
 				452DC1E227EF9064009EDD7B /* PasswordScreen.storyboard in Resources */,
@@ -497,6 +507,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				453ADD7227F52AB2003077FB /* UsernameViewController.swift in Sources */,
+				197EC289280A15AA00849789 /* PastCell.swift in Sources */,
 				453ADD7427F52AC2003077FB /* PasswordViewController.swift in Sources */,
 				19A9A16E27FD1CDF00B3121D /* FollowerCell.swift in Sources */,
 				19EEC50C27EFA61A00814990 /* LoginViewController.swift in Sources */,
@@ -510,6 +521,7 @@
 				453ADD7627F52AD3003077FB /* DeactivateViewController.swift in Sources */,
 				195BADF527FA449900319333 /* PostCell.swift in Sources */,
 				456D227D27EF8976001B94A2 /* SceneDelegate.swift in Sources */,
+				197EC287280A0DB500849789 /* UserPostViewController.swift in Sources */,
 				453ADD7827F52EAE003077FB /* NewPostViewController.swift in Sources */,
 				193891DF2801F9B0003268D5 /* FollowingCell.swift in Sources */,
 				45DD35322801F93C00903D2E /* CommentCellTableViewCell.swift in Sources */,
