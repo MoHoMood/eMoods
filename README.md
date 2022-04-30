@@ -38,7 +38,6 @@ The mood tracker
 - [x] User can see the feed screen.
 - [x] User can tap into the account screen.
 - [x] User can see the search screen.
-- [ ] User can search other usernames, emojis, and captions.
 - [x] User can see the post screen.
 - [x] User can see the username change screen.
 - [x] User can change the username.
@@ -64,7 +63,7 @@ The mood tracker
 
 
 **Optional Nice-to-have Stories**
-
+* User can search other usernames, emojis, and captions.
 * User can get quote recommendations based on their mood.
 * User can track their mood in in-app calendar.
 * User can follow other users.
