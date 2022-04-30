@@ -13,7 +13,7 @@ https://hackmd.io/EDetK-zSSNWr8AvLt3VAcw#Product-Spec
 ## Overview
 ### Description
 The mood tracker 
-- share my mood with others and comment/react/like on each others mood. -> use Twitter
+- Share mood with others and comment/react/like on each others mood. -> use Twitter
 - Update mood everyday with an emoji (or can add comments) -> Twitter
 - After tracking mood for a week, based on the mood, app recommends quotes or things that might be helpful to the user. -> use tracking/quotes API
 - Calendar shows the most-used emoji on each day.
