@@ -1,9 +1,9 @@
 # eMoods
 
-https://hackmd.io/EDetK-zSSNWr8AvLt3VAcw#Product-Spec
+### [Final PPT](https://docs.google.com/presentation/d/1QqizgVBnlb2HF6ekbeZEeQXMB8dFWANw1TZoccgzqQQ/edit?usp=sharing)
+### [Demo Video](https://drive.google.com/file/d/1RM1KnL7JF1Bsexk-6EirMZGMkXlaVe3x/view)
 
-
-## Table of Contents
+## Table of Contents ([template](https://hackmd.io/EDetK-zSSNWr8AvLt3VAcw#Product-Spec))
 1. [Overview](#Overview)
 2. [Product Spec](#Product-Spec)
 3. [Wireframes](#Wireframes)
