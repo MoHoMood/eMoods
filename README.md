@@ -84,7 +84,7 @@ The mood tracker
    * User can see/comment/react to posts. There will be "account" button and "post" button. (optional: There will be follow button beside the username.)
  
 * Account Screen
-  * User can update their account (account name, email, password, log out) (optional: can tap into the follow screen)
+  * User can update their account (account name, email, password, log out)
 
 * Post Screen
   * User can post their moods here (with mandatory emojis and optional writing) 
