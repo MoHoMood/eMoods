@@ -66,7 +66,7 @@ The mood tracker
 * User can search other usernames, emojis, and captions.
 * User can get quote recommendations based on their mood.
 * User can track their mood in in-app calendar.
-* User can follow other users.
+* User can text other users.
 
 
 ### 2. Screen Archetypes
