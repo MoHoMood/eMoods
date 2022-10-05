@@ -109,9 +109,8 @@ The mood tracker
 * FollowingPost Screen
    * User can see the posts of users that they follow
    * User can unfollow someone
-
-* Follower Screen
-   * User can see their followers
+   
+   
 
 ### 3. Navigation
 
