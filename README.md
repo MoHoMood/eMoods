@@ -24,9 +24,9 @@ The mood tracker
 - **Category:** Life Style
 - **Mobile:** mobile first experience, may develop website further
 - **Story:** User can update their mood with emojis, share with friends, follow people, chat, and get helpful recommendations based on their mood. Be self awared about their moods and try working on them.
-- **Market:** Anyone that wants to track or share their mood, if preferred, can reveal identity or be anonymous.Comment or put "reaction" emojis to others'posts. Follow people. Feel comfort from recommendations.
+- **Market:** Anyone that wants to track or share their mood, if preferred, can reveal identity or be anonymous. Comment or put "reaction" emojis to others'posts. Follow people. Feel comfort from recommendations.
 - **Habit:** User can post throughout the day many times. As mood changes frequently, users can post repeatedly which will form habit. 
-- **Scope:**"   " will start with posts, comments, react buttons, calendar, follow people, and quotes recommendation.
+- **Scope:** We will start with posts, comments, react buttons, calendar, follow people, and quotes recommendation.
 
 ## Product Spec
 
