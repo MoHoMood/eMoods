@@ -20,7 +20,7 @@ The mood tracker
 - Follow people.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
+
 - **Category:** Life Style
 - **Mobile:** mobile first experience, may develop website further
 - **Story:** User can update their mood with emojis, share with friends, follow people, chat, and get helpful recommendations based on their mood. Be self awared about their moods and try working on them.
